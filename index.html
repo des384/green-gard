@@ -4,12 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreenGarden</title>
-    <noscript class="loadLater"> 
+    <title>GreenGarden</title>    
     <link rel="stylesheet" href="css/normalize.min.css">    
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">    
-    <link rel="stylesheet" href="css/slick.css">
-</noscript>   
+    <link rel="stylesheet" href="css/slick.css">  
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -453,16 +451,6 @@
     <script src="js/jquery-3.5.1.min.js"></script>      
     <script src="js/jquery.fancybox.min.js"></script>    
     <script src="js/slick.min.js"></script>    
-    <script type="application/javascript">
-        // Загрузить содержимое <noscript class="loadLater"></noscript>  после загрузки страницы
-        document.addEventListener("DOMContentLoaded", function(event) {
-            var loadLater = document.querySelector('.loadLater');
-            var head = document.querySelector('head');
-            if(loadLater && head){
-                head.insertAdjacentHTML('beforeend', loadLater.innerHTML);
-            }
-        });
-    </script>
     <script src="js/main.min.js"></script>
 </body>
 
